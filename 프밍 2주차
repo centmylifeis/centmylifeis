@@ -1,0 +1,172 @@
+Python 3.9.6 (tags/v3.9.6:db3ff76, Jun 28 2021, 15:26:21) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> "hello"
+'hello'
+>>> 1
+1
+>>> 1+1
+2
+>>> 
+================= RESTART: C:/Users/Samuel/Desktop/web/P1/연습.py ================
+hello
+>>> print("안녕하세요?")
+안녕하세요?
+>>> "안녕하세요?"
+'안녕하세요?'
+>>> print("결과값은",2*7,"입니다.")
+결과값은 14 입니다.
+>>> print("안녕하세요!")
+안녕하세요!
+>>> "hello"
+'hello'
+>>> print("결과값은",2*7,"입니다.")
+결과값은 14 입니다.
+>>> print("안녕하세요!")
+안녕하세요!
+>>> exit()
+
+Python 3.9.6 (tags/v3.9.6:db3ff76, Jun 28 2021, 15:26:21) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 1+
+SyntaxError: invalid syntax
+>>> 3+*2
+SyntaxError: invalid syntax
+>>> print("Hello')
+      
+SyntaxError: EOL while scanning string literal
+>>> print(Hello)
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    print(Hello)
+NameError: name 'Hello' is not defined
+>>> Print("hello")
+Traceback (most recent call last):
+  File "<pyshell#5>", line 1, in <module>
+    Print("hello")
+NameError: name 'Print' is not defined
+
+Python 3.9.6 (tags/v3.9.6:db3ff76, Jun 28 2021, 15:26:21) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> print('hello')
+hello
+>>> print("hello")
+hello
+>>> print("hello')
+      
+SyntaxError: EOL while scanning string literal
+>>> print(hello)
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    print(hello)
+NameError: name 'hello' is not defined
+>>> print("안녕"+"하세요")
+안녕하세요
+>>> print("2"+"하세요")
+2하세요
+>>> print("반가워요"*5)
+반가워요반가워요반가워요반가워요반가워요
+>>> print("반가워요 "*5)
+반가워요 반가워요 반가워요 반가워요 반가워요 
+>>> print("안녕\n하세요")
+안녕
+하세요
+>>> print("안녕
+      
+SyntaxError: EOL while scanning string literal
+>>> print("안녕\t하세요")
+안녕	하세요
+>>> print("안녕\\하세요")
+안녕\하세요
+>>> print("안녕"\하세요")
+      
+SyntaxError: unexpected character after line continuation character
+>>> print("안녕\"하세요")
+안녕"하세요
+>>> print("안녕\'하세요")
+안녕'하세요
+>>> print("say\"Hello\")
+      
+SyntaxError: EOL while scanning string literal
+>>> print("say\"Hello\"")
+say"Hello"
+>>> print("say \"Hello\"")
+say "Hello"
+>>> print('say "Hello"')
+say "Hello"
+
+>>> 3
+3
+>>> type(3)
+<class 'int'>
+>>> type(3.5)
+<class 'float'>
+>>> type("3")
+<class 'str'>
+>>> print(100+200)
+300
+>>> print("100"+"200")
+100200
+>>> print(100+"200")
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    print(100+"200")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>> print(100+50.5)
+150.5
+>>> type(3.5)
+<class 'float'>
+>>> type(int(3.5))
+<class 'int'>
+>>> print(100+int("200"))
+300
+>>> print(str(100) + "200")
+100200
+
+변수
+>>> x=100
+>>> print(x)
+100
+>>> x+50
+150
+>>> x=-30
+>>> print(x)
+-30
+>>> x="안녕"
+>>> print(x)
+안녕
+>>> x=100 y=200
+SyntaxError: invalid syntax
+>>> x=100
+>>> y=200
+>>> tot=x+y
+>>> print(str(x)+"과 "+str(y)+"의 합은 "+str(tot)+"입니다.")
+100과 200의 합은 300입니다.
+>>> x,y= 100,200
+
+연산자
+>>> a=1
+>>> a=a+3
+>>> print(a)
+4
+>>> a+=3
+>>> print(a)
+7
+>>> a**=3
+>>> 
+>>> print(a)
+343
+
+
+#인사
+name=input("이름 입력 :")
+print(name,"씨 안녕하세요?")
+'''인사
+하는
+코드'''
+name=input("이름 입력 :")
+print(name,"씨 안녕하세요?")
+"""인사
+하는
+코드"""
+name=input("이름 입력 :")
+print(name,"씨 안녕하세요?")
