@@ -1,5 +1,5 @@
-weight=float(input "몸무게를 입력하세요 :"))
-height=float(input "키를 입력하세요 :"))
+weight=float(input("몸무게를 입력하세요 :"))
+height=float(input("키를 입력하세요 :"))
 bmi=round(weight/(height/100)**2,2)
 if bmi<18.5 :
     print("체질량지수는","bmi","이고 저체중입니다")
